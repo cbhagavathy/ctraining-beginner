@@ -22,6 +22,11 @@ int main() {
     printf("\n");
     printf("Displaying data from pointer to a (ptr_aa) : \n");
     for(i=0; i<10; i++) {
+        printf("-> %d ",*(ptr_aa+i));
+    }
+    printf("\n");
+    printf("Displaying data from pointer to a (ptr_aa) : \n");
+    for(i=0; i<10; i++) {
         printf("-> %d ", *ptr_aa++);
     }
     printf("\n");
