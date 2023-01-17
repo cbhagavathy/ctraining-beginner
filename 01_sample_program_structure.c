@@ -10,8 +10,8 @@ int main() {
 
 	printf("Local x : %d\n", x);
 
-	//Sub block to create a separate scope
-	//and access global variable
+	/*Sub block to create a separate scope
+	and access global variable*/
 	{
 		extern int x;
 		printf("Global x : %d\n", x);
